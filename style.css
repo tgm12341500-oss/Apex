@@ -1,0 +1,807 @@
+/* start rules */
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+img
+{
+width:100%
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color:white
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* end rules */
+/* start section1 */
+.section1
+{
+    display: flex;
+    justify-content: space-between;
+    color:#888;
+    background-color: #fdfdfd
+}
+.section1 ul 
+{
+    display: flex;
+    border-right: 1px solid #888 ;
+    margin-right:30px
+}
+.section1 ul li
+{
+    padding:5px 15px;
+    border-left: 1px solid #888 ;
+}
+/* end section1 */
+/* start navbar */
+nav
+{
+    background-color: white;
+    /* box-shadow: 0 10px 15px rgb(25 25 25 / 10%); */
+    margin-right: 15px;
+}
+nav .navbar-brand i
+{
+    font-size: 40px;
+    color: #fdaf4b;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+nav ul 
+{
+    transition: 0.3s;
+    padding: 25px 0;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #888;
+}
+nav ul li .nav-link.active:hover
+{
+color:#fdaf4b
+}
+nav ul li .nav-link.focus
+{
+    color:#fda12b
+}
+ .dropdown .dropdown-menu {
+    border: unset;
+   /* box-shadow: 0 10px 15px rgb(25 25 25 / 10%); */
+    padding: 17px 0;
+    width: 170px;
+    top: 150%;
+    transition:all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    background-color:#eee;
+}
+ .dropdown:hover .dropdown-menu {
+    top: calc(100% + 5px);
+    visibility: visible;
+    opacity: 1;
+}
+ .dropdown-menu a {
+padding: 6px 10px;
+transition: 0.3s;
+}
+ .dropdown-menu a:hover {
+color: white;
+background-color: #fda12b;
+}
+/* end navbar */
+/* start slider */
+.slider
+{
+    position:relative;
+}
+.slider .text
+{
+    position: absolute;
+    left:170px;
+    bottom:100px;
+    color:white;
+}
+.slider .text h2
+{
+    font-size: 20px;
+    font-weight: 700
+}
+.slider .text p
+{
+    font-size: 84px;
+    line-height: 1.2;
+    font-weight: 600;
+    width:80%;
+    padding-top: 15px;
+}
+.slider .text .btn
+{
+    background-color: #fda12b;
+    color: white;
+    border-radius: 0;
+    border: unset;
+    padding: 16px 48px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.slider .text .btn:hover
+{
+    background-color:#fdaf4b
+}
+.slider .text ul li i
+{
+    color: #fdaf4b
+}
+.slider .text ul li {
+    font-size: 20px;
+    margin-right: 10px;
+}
+/* end slider */
+/* start section2 */
+.section2
+{
+    padding: 70px 0px;
+}
+.section2 .container-fluid .left .img 
+{
+    height: 400px;
+}
+.section2 .container-fluid .img {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.section2 .container-fluid .left {
+    position: relative;
+    padding: 48px 0 0 48px;
+}
+
+.section2 .container-fluid .left .info {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px 10px 0;
+}
+.section2 .container-fluid .left .info .text
+{
+    background-color: #fda12b;
+    text-align: center;
+    color:#fff;
+    width:180px;
+    height: 180px;
+    padding:15px;
+}
+.section2 .container-fluid .left .info .text h3,
+.section2 .container-fluid .left .info .text h3 span
+{
+    font-size: 38px;
+    font-weight: 700;
+}
+.section2 .container-fluid .left .info .text p
+{
+    font-size: 20px;
+font-weight: 600;
+
+}
+.section2 .container-fluid  .text .head .text
+{
+    border-left: 5px solid #fda12b;
+}
+.section2 .container-fluid  .text .head .text h6
+{
+    color:#888;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.section2 .container-fluid  .text .head .text p
+{
+    margin-left: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section2 .container-fluid .text  .content p
+{
+    color:#888;
+    padding-bottom: 25px;
+}
+.section2 .container-fluid .text .sec
+{
+    border-top:1px solid #aaa;
+
+}
+.section2 .container-fluid .text .sec ul
+{
+    margin-top: 20px;
+}
+.section2 .container-fluid .text .sec ul li h6
+{
+    font-size: 18px;
+}
+.section2 .container-fluid .text .sec  ul li i
+{
+    font-size: 40px;
+    color:#fda12b;
+    margin-right: 10px;
+}
+/* end section2 */
+/* start section3 */
+/* .section3 .container-fluid .container .row > *
+{
+padding:0 !important;
+} */
+.section3 .container-fluid  img::before
+{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+}
+.section3 .container-fluid  .text
+{ 
+    position:relative;
+    top:-330px;
+    padding:0px 30px;
+}
+.section3 .container-fluid  .text h2
+{
+    font-size: 120px;
+    color:#fdaf4b
+}
+.section3 .container-fluid  .text span
+{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:#fff
+}
+.section3 .container-fluid  .text p
+{
+    color:#fff
+}
+.section3 .container-fluid  .text a
+{
+    border:none;
+    color:#fff;
+    transition: 0.3s;
+    font-size: 14px;
+}
+.section3 .container-fluid  .text a:hover
+{
+    color:#fda12b;
+}
+/* end section3 */
+/* start section4 */
+.section4 .container-fluid   .head .text
+{
+    border-left: 5px solid #fda12b;
+}
+.section4 .container-fluid   .head .text h6
+{
+    color:#888;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.section4 .container-fluid   .head .text p
+{
+    padding-left: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section4 .container-fluid .head  .content 
+{
+    color:#888;
+    padding-bottom: 25px;
+}
+.section4 .container-fluid .head   ul li
+{
+    padding-bottom: 25px;
+}
+.section4 .container-fluid .head   ul li .icon
+{
+    padding-bottom: 15px;
+}
+.section4 .container-fluid .head   ul li .icon h6
+{
+    font-size: 16px;
+    font-weight:bold ;
+}
+.section4 .container-fluid .head   ul li p
+{
+   
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.section4 .container-fluid .head   ul li i
+{
+    font-size: 40px;
+    color:#fda12b;
+    margin-right: 10px;
+}
+.section4 .container-fluid .right .img 
+{
+    height: 400px;
+}
+.section4 .container-fluid .img {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.section4 .container-fluid .right {
+    position: relative;
+    padding: 48px 0 0 48px;
+}
+
+.section4 .container-fluid .right .info {
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+    padding: 0 10px 10px 0;
+}
+.section4 .container-fluid .right .info .text
+{
+    background-color: #fda12b;
+    text-align: center;
+    color:#fff;
+    width:180px;
+    height: 180px;
+    padding:15px;
+}
+.section4 .container-fluid .right .info .text h3,
+.section4 .container-fluid .rigth .info .text h3 span
+{
+    font-size: 38px;
+    font-weight: 700;
+}
+.section4 .container-fluid .right .info .text p
+{
+    font-size: 20px;
+font-weight: 600;
+
+}
+/* end section4 */
+/* start section5 */
+.section5 .container-fluid .container .left .text3
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.section5 .container-fluid .container .left .text3::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #fda12b;
+    z-index: -1;
+    transition: 0.5s;
+    opacity: 0;
+    height: 0;
+}
+
+.section5 .container-fluid .container .left:hover .text3::before {
+    opacity: 1;
+    height: 100%;
+}
+.section5 .container-fluid .container .left:hover .text3 span,
+.section5 .container-fluid .container .left:hover .text3 p,
+.section5 .container-fluid .container .left:hover .text3 a
+{
+    color: #fff;
+}
+.section5 .container-fluid .container
+{
+    padding-bottom: 40px;
+}
+.section5 .container-fluid  .tex
+{
+    border-left: 5px solid #fda12b;
+}
+.section5 .container-fluid    .tex h6
+{
+    color:#888;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.section5 .container-fluid   .tex p
+{
+    padding-left: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section5 .container-fluid .btn
+{
+    background-color: #fda12b;
+    color: white;
+    border-radius: 0;
+    border: unset;
+    padding: 16px 48px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 335px;
+}
+.section5 .container-fluid .container .image
+{
+    margin-top: 15px;
+}
+.section5 .container-fluid .text3 span
+{
+    font-weight: 500;
+    color:black;
+    font-size: 20px;
+}
+.section5 .container-fluid .text3 p
+{
+    font-size: 16px;
+    margin:15px 0px;
+    color:#888;
+    text-align: center;
+}
+.section5 .container-fluid .text3 a
+{
+    color:#fda12b;
+}
+/* end section5 */
+/* start section6 */
+.section6 .image 
+{
+    background-image: url(./carousel-2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.section6 .para
+{
+    position: relative;
+    top:-350px;
+    color:#fff
+}
+.section6 .tex .text
+{
+    border-left: 5px solid #fda12b;
+}
+.section6 .tex .text span
+{
+    font-weight: 600;
+    padding-left: 10px;
+}
+.section6 .tex .text p
+{
+    padding-left: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section6 .tex .text 
+{
+    font-weight: 600;
+    padding-left: 10px;
+}
+.section6 .tex .content
+{
+    font-weight: 600;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.section6 .container form input
+{
+    background-color: #182333;
+    border: unset;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 0;
+    outline: none;
+    color: white;
+    transition: 0.3S;
+    width:100%;
+}
+.section6 .container form textarea
+{
+    height: 100px;
+    background-color: #182333;
+    color:#888;
+    width:100%
+}
+.section6 .container form .btn
+{
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fdaf2b;
+    text-transform: capitalize;
+    font-size: 12px;
+    height: 60px;
+}
+/* end section6 */
+/* start section7 */
+.section7
+{
+    margin-top: -200px;
+    padding-bottom: 150px;
+}
+.section7 .container-fluid .text
+{
+    border-left: 5px solid #fda12b;
+    margin-bottom: 150px;
+}
+.section7 .container-fluid .text span
+{
+    color:#888;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.section7 .container-fluid .text p
+{
+    padding-left: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section7 .container-fluid .content2
+{
+    color:#888;
+    margin-bottom: 150px;
+    font-weight: 600;
+}
+.section7 .container-fluid .image
+{
+    position: relative;
+    margin-top: 25px;
+}
+
+.section7 .container-fluid .image .text2 {
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px 20px;
+    width: 70%;
+    transition: 0.5s;
+}
+
+.section7 .container-fluid .image:hover .text2{
+    letter-spacing: 2px;
+    width: 100%;
+}
+/* end section7 */
+/* start section8 */
+.section8 .container-fluid .text
+{
+    border-left: 5px solid #fda12b;
+}
+.section8 .container-fluid .text span
+{
+    color:#888;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.section8 .container-fluid .text p
+{
+    padding-left: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.section8 .container-fluid .image img
+{
+    width:100px
+}
+.section8 .container-fluid .content
+{
+    font-size: 16px;
+    color: #888; 
+    padding-top: 40px;
+}
+.section8 .container-fluid .content1 
+{
+    font-size: 20px;
+    color: #888;
+    padding-bottom: 20px;
+    letter-spacing: 0.2px;
+    padding-top: 15px;
+}
+.section8 .container-fluid .span
+{
+    border-bottom: 5px solid #fda12b;
+    width:20px;
+    margin: auto;
+}
+.section8 .container-fluid .Icons
+{
+    margin-top: 25px;
+}
+.section8 .container-fluid .Icons i
+{
+    font-size: 40px;
+    color:#fda12b;
+    margin-right: 10px; 
+}
+.section8 .container-fluid .Icons h6
+{
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.section8 .container-fluid  p
+{
+    color:#182333;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section8 .container-fluid .names
+{
+    border-top: 5px solid #fda12b;
+    width:10%
+}
+.section8 .container-fluid .name h4
+{
+    padding-top: 15px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.section8 .container-fluid .name span
+{
+    color:#888
+}
+.section8 .container-fluid .icons i
+{
+    font-size: 16px;
+    border-radius: 50%;
+    border: 1px solid #fda12b;
+    padding: 13px 15px;
+    color: #888;
+    margin-right: 10px;
+    transition: 0.3s;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.7);
+}
+.section8 .container-fluid .icons i:hover
+{
+    background-color: #fda12b;
+    color: white;
+}
+/* end section8 */
+/* start footer */
+footer .container-fluid
+{
+    background-color: #182333;
+    padding-top: 70px;
+}
+footer .container-fluid .head i
+{
+    font-size: 40px;
+    color: #fdaf4b;
+    font-weight: 600;
+    margin-right: 10px;
+}
+footer .container-fluid h1:hover
+{
+    color:#007bff;
+    border-bottom: 3px solid #007bff;
+}
+footer .container-fluid h1,
+footer .container-fluid span
+{
+    color:#fff
+}
+footer .container-fluid span
+{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+footer .container-fluid .para
+{
+    margin: 40px 0
+}
+footer .container-fluid ul li
+{
+    margin-bottom: 10px;  
+}
+footer .container-fluid h5,
+footer .container-fluid p,
+footer .container-fluid ul li a
+{
+    color:#888;
+}
+footer .container-fluid .icons a i
+{
+    border: 1px solid #fdaf4b;
+    color: #fdaf4b;
+    padding: 12px;
+    transition: 0.5s;
+}
+footer .container-fluid .icons a i:hover
+{
+    background-color: #fdaf4b;
+    color:#fff
+}
+footer .container-fluid form
+{
+    position: relative;
+    border:1px solid #fff;
+    padding:5px
+}
+footer .container-fluid form input
+{
+    border: none;
+    background-color: #182333;
+    color:#888;
+    padding: 10px;
+}
+footer .container-fluid form button
+{
+    border:none;
+    background-color: #fdaf2b;
+    color: white ;
+    padding: 8px 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin-top: 2px;
+    
+    box-shadow: 0px 0px 2px 2px black;
+}
+footer .container-fluid .tex1
+{
+    margin-left: 260px;
+}
+footer .container-fluid .tex1 h5 span a
+{
+    font-size: 16px;
+}
+footer .container-fluid .tex1 h5 span a:hover
+{
+    color:#007bff;
+    border-bottom: 3px solid #007bff;
+}
+footer .container-fluid .details {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #888;
+    padding-bottom:20px ;
+}
+
+footer .container-fluid .info3 li a:hover  {
+    color: white;
+    position: relative;
+    transition: 0.s;
+    left: 15px;
+    top:0px;
+    bottom: 0px;
+}
+/* end footer */
